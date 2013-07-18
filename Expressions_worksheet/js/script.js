@@ -13,6 +13,7 @@ console.log("Sparky is" +" "+ humanYears +" "+ "human years old which is" +" "+ 
 
 //Slice of Pie I
 
-var slices;
-var people;
-var pizzas;
+var slices="8";
+var people="15";
+var pizza="10";
+

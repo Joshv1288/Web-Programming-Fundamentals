@@ -20,3 +20,4 @@ var slicesPer;
 
 //Expression
 slicesPer = pizza * slices / people
+console.log("Each person ate" + " " + slicesPer + " " + "slices of pizza at the party." )

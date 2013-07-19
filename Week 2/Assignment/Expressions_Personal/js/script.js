@@ -4,3 +4,7 @@
 
 
 // Calculating Interest earned
+
+var amountSaving
+var months
+var interest

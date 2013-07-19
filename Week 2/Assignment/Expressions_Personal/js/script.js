@@ -8,3 +8,5 @@
 var amountSaving
 var months
 var interest
+var totalEarned
+

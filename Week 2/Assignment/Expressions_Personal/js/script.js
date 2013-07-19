@@ -15,4 +15,4 @@ var interestEarned
 totalEarned = amountSaving * months * interest
 interestEarned = totalEarned / 10
 
-console.log(interestEarned)
+alert(interestEarned)

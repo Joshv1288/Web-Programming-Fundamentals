@@ -15,4 +15,4 @@ var interestEarned
 totalEarned = amountSaving * months * interest
 interestEarned = totalEarned / 10
 
-alert(interestEarned)
+alert("You will earn $" + interestEarned + " over " + months + "s of saving.")

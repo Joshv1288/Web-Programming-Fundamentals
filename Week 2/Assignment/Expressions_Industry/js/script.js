@@ -7,10 +7,10 @@
 
 alert("Please have Raw Score already calculated to Simple Score")
 
-var pushUps = prompt("Please Enter Push Up Score")
-var sitUps = prompt("Please Enter Sit Up Score")
-var runTime = prompt("Please Enter Run Score")
-var totalScore;
+var pushUps = prompt("Please Enter Push Up Score");
+var sitUps = prompt("Please Enter Sit Up Score");
+var runTime = prompt("Please Enter Run Score");
+
 
 //var scores = [var pushUps, var sitUps, var runTime];
 
@@ -19,6 +19,8 @@ var totalScore;
 //scores[1]= var sitUps;
 //scores[2]= var runTime;
 
-totalScore = pushUps + sitUps + runTime;
+//totalScore = scores[0] + scores[1] + scores[2]
+
+var totalScore = pushUps + sitUps + runTime;
 console.log(totalScore);
 alert("Your Total APFT Score is " + totalScore)

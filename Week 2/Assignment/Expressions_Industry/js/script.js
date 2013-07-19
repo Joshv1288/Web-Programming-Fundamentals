@@ -19,6 +19,6 @@ var totalScore;
 //scores[1]= var sitUps;
 //scores[2]= var runTime;
 
-totalScore = pushUps + sitUps +runTime;
+totalScore = pushUps + sitUps + runTime;
 console.log(totalScore);
 alert("Your Total APFT Score is " + totalScore)

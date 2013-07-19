@@ -21,6 +21,6 @@ var runTime = prompt("Please Enter Run Score");
 
 //totalScore = scores[0] + scores[1] + scores[2]
 
-var totalScore = pushUps + sitUps + runTime;
+var totalScore = parseInt(pushUps) + parseInt(sitUps) + parseInt(runTime);
 console.log(totalScore);
 alert("Your Total APFT Score is " + totalScore)

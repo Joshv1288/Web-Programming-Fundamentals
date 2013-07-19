@@ -5,9 +5,9 @@
 
 // Calculating Interest earned
 
-var amountSaving = 100
-var months = 6
-var interest = .06
+var amountSaving = prompt("Please enter the amount you will be saving each month")
+var months = prompt("Enter number of months you will be saving")
+var interest = prompt("Enter your interest rate in decimal form")
 var totalEarned
 var interestEarned
 

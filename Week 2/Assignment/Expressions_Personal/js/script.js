@@ -5,8 +5,11 @@
 
 // Calculating Interest earned
 
-var amountSaving
-var months
-var interest
+var amountSaving = 100
+var months = 5
+var interest = .06
 var totalEarned
 
+totalEarned = amountSaving * months * interest
+
+console.log(totalEarned)

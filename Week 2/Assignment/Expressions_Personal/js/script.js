@@ -11,8 +11,8 @@ var interest = prompt("Enter your interest rate in decimal form")
 var totalEarned
 var interestEarned
 
+
 totalEarned = amountSaving * months * interest
+interestEarned = totalEarned / 10
 
-//interestEarned = totalEarned / 10
-
-console.log(totalEarned)
+console.log(interestEarned)

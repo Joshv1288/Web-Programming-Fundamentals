@@ -8,9 +8,10 @@
 var rawPushup = 80;
 var rawSitup = 88;
 var rawRunTme = 89;
+var minimumScore = 60;
 
-if(rawPushup > parseInt(60) && rawSitup > parseInt(60)){
+if(rawPushup >= minimumScore && rawSitup > minimumScore){
 	console.log("You passed the PT test!");
-else{
+}else{
 	console.log("You failed the PT test! :(");
 }

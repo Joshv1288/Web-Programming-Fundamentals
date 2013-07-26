@@ -3,17 +3,19 @@
 //Conditional Personal
 
 
+var Temp
+var waveHeight= 4
+var minimumHeight = 3
+var minimumTemp
 
-
-var rawPushup = 80;
-var rawSitup = 88;
-var rawRunTme = 89;
-var minimumScore = 60;
-
-//If Pushups, Situps and Runtime are greater than or equal to 60 then you passed the PT test
-
-if(rawPushup > minimumScore){
-	console.log("You passed the PT test!") ;
-}else{
-	console.log("You failed the PT test! :(");
+if(waveHeight > minimumHeight){
+	console.log("Lets go surfing!!")
+} else if(varTemp > minimumTemp){
+	console.log("Waves look good but Little to chilly outside to surf")
+} else {
+	console.log("Looking kinda flat brah")
 }
+
+
+
+//waveHeight > minimumHeight ? console.log("Lets go surfing!!") :  console.log("Looking kind of flat brah!")

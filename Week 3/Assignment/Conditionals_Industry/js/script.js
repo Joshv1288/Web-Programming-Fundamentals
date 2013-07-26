@@ -18,4 +18,3 @@ alert("You passed the PT test!") ; // Alerts user that they have meet all three 
 }else{
 alert("You failed the PT test!"); //Alerts use that they have failed the PT test
 }
-

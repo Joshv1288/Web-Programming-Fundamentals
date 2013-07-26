@@ -8,5 +8,5 @@ var minimumScore = 60;
 if(rawPushup >= minimumScore && rawSitup >= minimumScore && rawRunTime >= minimumScore){
 console.log("You passed the PT test!") ;
 }else{
-console.log("You failed the PT test! :(");
+console.log("You failed the PT test!");
 }

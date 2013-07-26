@@ -1,6 +1,6 @@
-//
-//
-//
+//Joshua Velez
+//Web Programming Fundamentals
+//Wacky Conditional
 
 var yearBorn = prompt("Please enter the year you were born.")
 var currentYear = prompt("Please enter the current year.")

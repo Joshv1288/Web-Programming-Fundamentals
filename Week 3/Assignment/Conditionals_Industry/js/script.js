@@ -1,3 +1,11 @@
+/* 
+Joshua Velez
+Web Programming Fundamentals
+Conditional Industry
+*/
+
+
+
 var rawPushup = prompt("How Many Pushups did you do?"); //Collects number of pushups performed
 var rawSitup = prompt("How many situps did you do?"); //Collects number of situps performed
 var rawRunTime = prompt("How fast did you run your 2 mile?"); //Collects how fast you ran on PT test

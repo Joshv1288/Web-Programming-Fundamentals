@@ -18,13 +18,14 @@ if (windSpeed != '' || windSpeed != null) {
 	console.log("please enter the wind speed. Please refresh the page")
 }*/
 
-if (waveHeight > minimumHeight){
-	if (windSpeed < maximumWind) {
-		console.log("Lets go surfing")
+//If the waves are big enough and its not to windy I will go surfing if not we will stay home.
+if (waveHeight > minimumHeight){ //Compares wave height to minimum height
+	if (windSpeed < maximumWind) { // Compares wind speed to minium speed
+		console.log("Lets go surfing") //Displays in console if both conditions are met
 	}else{
-		console.log("Water is a little choppy")
+		console.log("Water is a little choppy") //Displays if wind is too high
 	}
 
 }else{
-	console.log("Looks really flat!")
+	console.log("Looks really flat!") //Displays if wave height is to low
 }

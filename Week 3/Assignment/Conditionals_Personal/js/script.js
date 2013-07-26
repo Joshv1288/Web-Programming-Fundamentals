@@ -3,15 +3,15 @@
 //Conditional Personal
 
 
-var Temp
-var waveHeight= 4
+var Temp = 76
+var waveHeight = 2
 var minimumHeight = 3
-var minimumTemp
+var minimumTemp = 70
 
-if(waveHeight > minimumHeight){
-	console.log("Lets go surfing!!")
-} else if(varTemp > minimumTemp){
-	console.log("Waves look good but Little to chilly outside to surf")
+if(varTemp > minimumTemp){
+	console.log("Little to chilly outside to surf")
+} else if(waveHeight > minimumHeight){
+	console.log("Lets Go surfing brah!!")
 } else {
 	console.log("Looking kinda flat brah")
 }

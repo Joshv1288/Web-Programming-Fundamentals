@@ -3,11 +3,12 @@
 //Conditional Personal
 
 
-var waveHeight = prompt("What is the wave height at the beach?")
-var minimumHeight = 3
+var waveHeight = prompt("What is the wave height at the beach?") //Collects WaveHeight
+var minimumHeight = 3 // Minimum wave height required for surfing
 
-if (waveHeight == null) {
+if (waveHeight != '' || waveHeight != null) {
 	alert("Please enter the wave height. Please refresh the page")
+	console.log("please enter the wave height. Please refresh the page")
 }
 
 

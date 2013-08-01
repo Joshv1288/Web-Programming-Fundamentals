@@ -10,8 +10,9 @@ var p =  prompt("How many pushups did you do?")
 var s = 90
 var t = 85
 
+testScore(p, s, t)
 
-var testScore = function testScore(p, s, t){
+var testScore = function(p, s, t){
 	var score = parseInt(p) + parseInt(s) + parseInt(t)
 	return score
 }

@@ -13,7 +13,7 @@ var t = 85
 
 var testScore = function testScore(p, s, t){
 	var score = parseInt(p) + parseInt(s) + parseInt(t)
-	console.log(score)
+	return score
 }
 
 

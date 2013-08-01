@@ -21,7 +21,7 @@ function testScore(p, s, t){
 if (p >= 60 && s >= 60 && t >=60){
 	console.log("You passed your PT Test with a score of " + testScore())
 }else if (p >= 90 && s >= 90 && t >=90){
-	console.log("You earned the PT Badge."
+	console.log("You earned the PT Badge.")
 }else{
 	console.log("You failed the PT Test.")
 }

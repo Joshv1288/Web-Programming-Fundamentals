@@ -6,14 +6,16 @@ Functions Industry
 
 //Determine PT Test Score
 
-var pushUp =  prompt("How many pushups did you do?")
-var sitUp = 90
-var runTime = 85
+var p =  prompt("How many pushups did you do?")
+var s = 90
+var t = 85
 
+testScore(p, s, t)
 
-function testScore(){
-	var parseInt(score) = parseInt(pushUp) + parseInt(sitUp) + parseInt(runTime)
+function testScore(p, s, t){
+	var score = parseInt(p) + parseInt(s) + parseInt(t)
 	console.log(score)
 }
 
-testScore();
+
+if 

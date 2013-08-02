@@ -14,3 +14,4 @@ function totalSaving(){
 	console.log(months)
 }
 
+totalSaving();

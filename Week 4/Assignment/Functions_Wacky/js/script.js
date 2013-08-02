@@ -5,7 +5,7 @@
 
 //Finding the circumference of the circle
 
-var area = 180
+var area = prompt("Please enter the area of your circle.")
 var pi = 3.14
 
 var radius = function(){
@@ -14,18 +14,18 @@ var radius = function(){
 }
 
 
-console.log(Math.round(radius()* 100) / 100)
+alert(Math.round(radius()* 100) / 100)
 
 var diameter = function(){
 	var diameter = 2*radius()
 	return diameter
 }
 
-console.log(Math.round(diameter() * 100) / 100)
+alert(Math.round(diameter() * 100) / 100)
 
 var circumference = function(){
 	var circumference = pi*diameter()
 	return circumference
 }
 
-console.log(Math.round(circumference() * 100) / 100)
+alert(Math.round(circumference() * 100) / 100)

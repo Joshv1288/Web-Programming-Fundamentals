@@ -14,18 +14,18 @@ var radius = function(){
 }
 
 
-console.log(radius())
+console.log(Math.round(radius()* 100) / 100)
 
 var diameter = function(){
 	var diameter = 2*radius()
 	return diameter
 }
 
-console.log(diameter())
+console.log(Math.round(diameter() * 100) / 100)
 
 var circumference = function(){
 	var circumference = pi*diameter()
 	return circumference
 }
 
-console.log(circumference());
+console.log(Math.round(circumference() * 100) / 100)

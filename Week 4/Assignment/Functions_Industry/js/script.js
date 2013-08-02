@@ -14,9 +14,8 @@ testScore(p, s, t); // Calls function
 
 function testScore(p, s, t){
 	var score = parseInt(p) + parseInt(s) + parseInt(t); // Adds scores
-	alert("Your final score is " + score.); // Alerts user of final score
+	alert("Your final score is " + score); // Alerts user of final score
 }
-
 
 if (p >= 90 && s >= 90 && t >=90){
 	alert("You passed your PT Test and earned the PT Badge."); // Alerts user if they passed PT Test and got PT Badge.

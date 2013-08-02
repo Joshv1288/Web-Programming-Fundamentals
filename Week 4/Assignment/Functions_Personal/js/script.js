@@ -15,3 +15,5 @@ function totalSaving(){
 }
 
 totalSaving();
+
+totalSaving() > 6  ? console.log("You will be saving for a long time.") : console.log("Not too long before you will have this.")
